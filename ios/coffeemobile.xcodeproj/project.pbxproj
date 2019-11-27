@@ -12,14 +12,14 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		18DC8359D3AE64988BBBCE8D /* Pods_coffeemobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C136DA4924CDC34D905D3F48 /* Pods_coffeemobile.framework */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* coffeemobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* coffeemobileTests.m */; };
-		3E42BE7F5FDA1E953889ADC6 /* libPods-coffeemobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A4F9F4A0EB943076E473C2F /* libPods-coffeemobile.a */; };
-		50E5AF37737E43608B5C27AA /* libPods-coffeemobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E666AACEAF1A7D85A24321 /* libPods-coffeemobileTests.a */; };
-		C2AC28ACE52BEF4E971EB7FF /* libPods-coffeemobile-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2DC5431AC94BB657FFB57B /* libPods-coffeemobile-tvOSTests.a */; };
-		DCF51DA462E8048132B20879 /* libPods-coffeemobile-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF51E099C740B28AD84AF0C8 /* libPods-coffeemobile-tvOS.a */; };
+		B115241DBD103CD4088E15CA /* Pods_coffeemobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7245F9133913825BD71E81A5 /* Pods_coffeemobileTests.framework */; };
+		B5D6BFA3AF1F308FB10C1BEB /* Pods_coffeemobile_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCAC1E60988FF698684A430 /* Pods_coffeemobile_tvOSTests.framework */; };
+		E15B46F96A200151E77BB277 /* Pods_coffeemobile_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B83B067D99CFCD7E2A3386C /* Pods_coffeemobile_tvOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,16 +57,16 @@
 		1BCFBD7A0F67D71CBC232995 /* Pods-coffeemobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffeemobileTests.release.xcconfig"; path = "Target Support Files/Pods-coffeemobileTests/Pods-coffeemobileTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* coffeemobile-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coffeemobile-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* coffeemobile-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "coffeemobile-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		39E666AACEAF1A7D85A24321 /* libPods-coffeemobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coffeemobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A4F9F4A0EB943076E473C2F /* libPods-coffeemobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coffeemobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		650B7AAE0B4E88B21B9410EC /* Pods-coffeemobile-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffeemobile-tvOS.release.xcconfig"; path = "Target Support Files/Pods-coffeemobile-tvOS/Pods-coffeemobile-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		AE2DC5431AC94BB657FFB57B /* libPods-coffeemobile-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coffeemobile-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF51E099C740B28AD84AF0C8 /* libPods-coffeemobile-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coffeemobile-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B83B067D99CFCD7E2A3386C /* Pods_coffeemobile_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coffeemobile_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7245F9133913825BD71E81A5 /* Pods_coffeemobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coffeemobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C136DA4924CDC34D905D3F48 /* Pods_coffeemobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coffeemobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9D6754A8AEA33F26EC6AEE /* Pods-coffeemobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffeemobile.release.xcconfig"; path = "Target Support Files/Pods-coffeemobile/Pods-coffeemobile.release.xcconfig"; sourceTree = "<group>"; };
 		DCAA83700D1FFCE710F23CE1 /* Pods-coffeemobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffeemobileTests.debug.xcconfig"; path = "Target Support Files/Pods-coffeemobileTests/Pods-coffeemobileTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		FB9CFF6061C97C053E04FC01 /* Pods-coffeemobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffeemobile.debug.xcconfig"; path = "Target Support Files/Pods-coffeemobile/Pods-coffeemobile.debug.xcconfig"; sourceTree = "<group>"; };
+		FDCAC1E60988FF698684A430 /* Pods_coffeemobile_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coffeemobile_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50E5AF37737E43608B5C27AA /* libPods-coffeemobileTests.a in Frameworks */,
+				B115241DBD103CD4088E15CA /* Pods_coffeemobileTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E42BE7F5FDA1E953889ADC6 /* libPods-coffeemobile.a in Frameworks */,
+				18DC8359D3AE64988BBBCE8D /* Pods_coffeemobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCF51DA462E8048132B20879 /* libPods-coffeemobile-tvOS.a in Frameworks */,
+				E15B46F96A200151E77BB277 /* Pods_coffeemobile_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2AC28ACE52BEF4E971EB7FF /* libPods-coffeemobile-tvOSTests.a in Frameworks */,
+				B5D6BFA3AF1F308FB10C1BEB /* Pods_coffeemobile_tvOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				3A4F9F4A0EB943076E473C2F /* libPods-coffeemobile.a */,
-				AF51E099C740B28AD84AF0C8 /* libPods-coffeemobile-tvOS.a */,
-				AE2DC5431AC94BB657FFB57B /* libPods-coffeemobile-tvOSTests.a */,
-				39E666AACEAF1A7D85A24321 /* libPods-coffeemobileTests.a */,
+				C136DA4924CDC34D905D3F48 /* Pods_coffeemobile.framework */,
+				6B83B067D99CFCD7E2A3386C /* Pods_coffeemobile_tvOS.framework */,
+				FDCAC1E60988FF698684A430 /* Pods_coffeemobile_tvOSTests.framework */,
+				7245F9133913825BD71E81A5 /* Pods_coffeemobileTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -230,6 +230,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				506B6200F11A7EE5C7789947 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -451,6 +452,82 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		506B6200F11A7EE5C7789947 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coffeemobile/Pods-coffeemobile-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework",
+				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/RCTTypeSafety/RCTTypeSafety.framework",
+				"${BUILT_PRODUCTS_DIR}/RNCMaskedView/RNCMaskedView.framework",
+				"${BUILT_PRODUCTS_DIR}/RNGestureHandler/RNGestureHandler.framework",
+				"${BUILT_PRODUCTS_DIR}/RNReanimated/RNReanimated.framework",
+				"${BUILT_PRODUCTS_DIR}/RNScreens/RNScreens.framework",
+				"${BUILT_PRODUCTS_DIR}/RNVectorIcons/RNVectorIcons.framework",
+				"${BUILT_PRODUCTS_DIR}/React-Core/React.framework",
+				"${BUILT_PRODUCTS_DIR}/React-CoreModules/CoreModules.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTActionSheet/RCTActionSheet.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTAnimation/RCTAnimation.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTBlob/RCTBlob.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTImage/RCTImage.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTLinking/RCTLinking.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTNetwork/RCTNetwork.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTSettings/RCTSettings.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTText/RCTText.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTVibration/RCTVibration.framework",
+				"${BUILT_PRODUCTS_DIR}/React-cxxreact/cxxreact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsi/jsi.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsiexecutor/jsireact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsinspector/jsinspector.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactCommon/ReactCommon.framework",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
+				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-react-native/lottie_react_native.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-safe-area-context/react_native_safe_area_context.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBReactNativeSpec.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTTypeSafety.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNCMaskedView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNGestureHandler.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNReanimated.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNScreens.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNVectorIcons.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreModules.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTActionSheet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTAnimation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTBlob.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTLinking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTNetwork.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTSettings.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTVibration.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cxxreact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsireact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsinspector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactCommon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/lottie_react_native.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_safe_area_context.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-coffeemobile/Pods-coffeemobile-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A2C7A8A1CDA70385CC286C06 /* [CP] Check Pods Manifest.lock */ = {
