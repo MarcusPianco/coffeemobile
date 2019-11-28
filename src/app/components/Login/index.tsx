@@ -1,6 +1,7 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Lottie from 'lottie-react-native';
-
+import '../../../config/ReactotronConfig';
+import {SafeAreaView} from 'react-native';
 import {
     Container,
     Form,
@@ -17,29 +18,42 @@ import {
 const Coffee = require('./assets/coffee.json');
 
 export default function Login() {
+    const [login, setLogin] = useState('');
+    const [password, setPassword] = useState('');
+
+    function handleSubmit() {
+        console.log(login, password);
+    }
+
     return (
         <Container>
-            <LogoConainer>
-                <Lottie source={Coffee} resizeMode="cover" autoPlay loop />
-                <TextTitle>Code Coffee</TextTitle>
-            </LogoConainer>
+            <SafeAreaView style={{flex: 1}}>
+                <LogoConainer>
+                    <Lottie source={Coffee} resizeMode="cover" autoPlay loop />
+                    <TextTitle>Code Coffee</TextTitle>
+                </LogoConainer>
+            </SafeAreaView>
 
-            <Form>
+            <Form onSubmit={handleSubmit}>
                 <InputLogin
                     autoCorrect={false}
                     autoCapitalize="none"
                     placeholder="Email ou login"
                     alignText="center"
+                    onChange={text => setLogin(text)}
                 />
-                <InputPassword type="password" />
+                <InputPassword
+                    type="password"
+                    value={password}
+                    onChangeText={text => setPassword(text)}
+                />
                 <SignupConainer>
-                    <SubmitButton>
-                        {/* <Icon name="play-arrow" size={20} color="#fff" /> */}
+                    <SubmitButton
+                        onClick={() => {
+                            console.log(1);
+                        }}>
                         <TextButton>Login</TextButton>
                     </SubmitButton>
-                    <RegisterButton>
-                        <TextButton>Registrar</TextButton>
-                    </RegisterButton>
                 </SignupConainer>
             </Form>
         </Container>
