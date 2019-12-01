@@ -1,17 +1,10 @@
-import React from 'react';
-import {createStackNavigator} from '@react-navigation/stack';
-import Login from './app/components/Login';
-import Signup from './app/components/Signup';
+import {createAppContainer, createSwitchNavigator} from 'react-navigation';
+import SignIn from './app/pages/SignIn';
+import SignUp from './app/pages/SignUp';
 
-const Stack = createStackNavigator();
-
-function Routes() {
-    return (
-        <Stack.Navigator>
-            <Stack.Screen name="Signup" component={Signup} />
-            <Stack.Screen name="Login" component={Login} />
-        </Stack.Navigator>
-    );
-}
-
-export default Routes;
+export default createAppContainer(
+    createSwitchNavigator({
+        SignIn,
+        SignUp,
+    }),
+);

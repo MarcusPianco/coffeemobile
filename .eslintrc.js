@@ -35,13 +35,16 @@ module.exports = {
         'warn',{ extensions: ['jsx', '.js','ts', 'tsx']}
     ],
     'import/prefer-default-export': 'off',
-    "no-use-before-define": 'off'
+    "no-use-before-define": 'off',
+    "import/no-unresolved": "off",
+    "react/jsx-props-no-spreading": "off"
+
 },
 "settings": {
     "import/resolver": {
-      "node": {
-        "extensions": [".js", ".jsx", ".ts", ".tsx"]
-      }
+      "babel-plugin-root-import": {
+        rootPathSuffix: 'src'
+      },
     },
 }
 
