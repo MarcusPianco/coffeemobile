@@ -11,7 +11,7 @@ import {
     SignLinkText,
 } from './styles';
 
-const logo = require('../assets/coffee.png');
+const logo = require('../assets/logo.png');
 
 interface ILogin {
     navigation: NavigationStackProp<string>;
