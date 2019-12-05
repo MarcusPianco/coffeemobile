@@ -1,5 +1,5 @@
 import styled from 'styled-components/native';
-import {Platform} from 'react-native';
+import {Platform, Image, Text} from 'react-native';
 import Input from '../../components/Input';
 import Button from '../../components/Button';
 
@@ -16,6 +16,17 @@ export const Container = styled.KeyboardAvoidingView.attrs({
 export const Form = styled.View`
     align-self: stretch;
     margin-top: 50px;
+`;
+export const ImageLogo = styled(Image)`
+    max-height: 260px;
+    max-width: 260px;
+`;
+
+export const TextLogo = styled(Text)`
+    color: #333;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Chalkduster';
 `;
 
 export const FormInput = styled(Input)`

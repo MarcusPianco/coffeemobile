@@ -1,5 +1,4 @@
 import React, {useRef} from 'react';
-import {Image} from 'react-native';
 import {NavigationStackProp} from 'react-navigation-stack';
 import Background from '../../components/Background';
 import {
@@ -9,9 +8,11 @@ import {
     SubmitButton,
     SignLink,
     SignLinkText,
+    ImageLogo,
+    TextLogo,
 } from './styles';
 
-const logo = require('../assets/logo.png');
+const logo = require('../assets/coffee2.png');
 
 interface ILogin {
     navigation: NavigationStackProp<string>;
@@ -23,7 +24,8 @@ export default function SignIn({navigation}: ILogin) {
     return (
         <Background>
             <Container>
-                <Image source={logo} />
+                <ImageLogo source={logo} />
+                <TextLogo>Code Coffee</TextLogo>
                 <Form>
                     <FormInput
                         icon="mail-outline"
